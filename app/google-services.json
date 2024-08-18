@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151777432684",
+    "project_id": "examentresabel",
+    "storage_bucket": "examentresabel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151777432684:android:9aadfcc25569a399cd3449",
+        "android_client_info": {
+          "package_name": "com.example.examentresabel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf1ydAGetRiHOn2SLibWCEGy95oZxNsL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

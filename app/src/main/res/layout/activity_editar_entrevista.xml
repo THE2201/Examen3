@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha"
+            android:textSize="16sp"
+            android:enabled="false"
+            android:focusable="false"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etPeriodista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Periodista"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/ivImagen"
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnSeleccionar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#409d29"
+            android:text="Cambiar Imagen" />
+
+
+        <Button
+            android:id="@+id/btnsubirAudio"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#409d29"
+            android:text="Cambiar Audio" />
+
+        <Button
+            android:id="@+id/btngrabarAudio"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#409d29"
+            android:text="Grabar Audio" />
+
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#409d29"
+            android:text="Actualizar Entrevista"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="#409d29"
+            android:text="Eliminar Entrevista"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
